@@ -76,6 +76,7 @@ if ( !defined( 'NPWC_PLUGIN_DIR_PATH' ) ) {
 
 require dirname( NPWC_PLUGIN_FILE ) . '/includes/class-npwc-init.php';
 require dirname( NPWC_PLUGIN_FILE ) . '/includes/class-btc.php';
+require dirname( NPWC_PLUGIN_FILE ) . '/includes/class-litecoin.php';
 
 add_action( 'plugins_loaded', 'load_npwc' );
 
