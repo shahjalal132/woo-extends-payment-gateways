@@ -16,7 +16,7 @@ function btc_npwc_gateway_init() {
 
                 $this->id                 = 'btc_nowpayments';
                 $this->title              = $this->get_option( 'title' );
-                $this->icon               = apply_filters( 'wcnp_icon', NPWC_PLUGIN_URL . '/assets/images/icon.png' );
+                $this->icon               = apply_filters( 'wcnp_icon', NPWC_PLUGIN_URL . '/assets/images/bitcoin.png' );
                 $this->has_fields         = false;
                 $this->method_title       = 'BTC NOWPayments';
                 $this->description        = $this->get_option( 'description' );
