@@ -80,6 +80,7 @@ require dirname( NPWC_PLUGIN_FILE ) . '/includes/class-litecoin.php';
 require dirname( NPWC_PLUGIN_FILE ) . '/includes/class-etherium.php';
 require dirname( NPWC_PLUGIN_FILE ) . '/includes/class-usdt.php';
 require dirname( NPWC_PLUGIN_FILE ) . '/includes/class-tron-trc-20.php';
+require dirname( NPWC_PLUGIN_FILE ) . '/includes/class-bnb-bep-20.php';
 
 add_action( 'plugins_loaded', 'load_npwc' );
 
